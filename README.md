@@ -36,3 +36,5 @@ A Python-based tool that enables clipboard sharing between computers on a local 
 - I want to see which computers are currently connected
 - I want to be notified when new devices connect to the server
 - I want to manually approve new device connections
+
+
