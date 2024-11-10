@@ -1,0 +1,9 @@
+security:
+  encryption_key: Lv20Ozl4_T7BAQQx70cst1NZpuKsHLFlPax7CZ_Kz1k=
+server:
+  allowed_ips: []
+  host: 0.0.0.0
+  max_clients: 10
+  max_content_size: 10485760
+  port: 5000
+  require_approval: true

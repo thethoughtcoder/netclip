@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/server.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        },
+        {
+            "name": "Launch Client",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/client.py",
+            "args": ["localhost"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            }
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Server + Client",
+            "configurations": ["Launch Server", "Launch Client"]
+        }
+    ]
+} 
